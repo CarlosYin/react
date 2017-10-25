@@ -1,3 +1,26 @@
-*{
+.m-home .m-tabarea-index {
+    padding-top: 0;
+}
+.m-tabarea {
+    margin: 0 auto;
+}
+body, button, input, keygen, legend, select, textarea {
+    font: 14px/1.5 Helvetica,sans-serif;
+    color: #333;
+    outline: 0;
+}
+
+.am-tabs-default-bar-tab{
+    height: 40px;
     font-size: 14px;
+}
+.am-tabs-default-bar-tab-active{
+    color: var(--base);
+}
+.tabctitem {
+    width: 100%;
+    height: 100%;
+}
+.am-tabs-tab-bar-wrap{
+    z-index: 99;
 }

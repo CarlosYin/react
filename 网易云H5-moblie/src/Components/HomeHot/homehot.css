@@ -1,0 +1,27 @@
+b, em, h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 400;
+}
+
+.m-homeremd {
+    padding-top: 20px;
+}
+
+.m-homeremd .remd_tl {
+    position: relative;
+    padding-left: 9px;
+    margin-bottom: 14px;
+    font-size: 17px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.m-homeremd .remd_tl:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -9px;
+    width: 2px;
+    height: 16px;
+    background-color: var(--base);
+}

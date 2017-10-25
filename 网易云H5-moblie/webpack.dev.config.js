@@ -11,7 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     devtool: 'eval-source-map',
-    entry: __dirname + "/src/main.js",
+    entry: ["babel-polyfill", __dirname + "/src/main.js"],
     output: {
         path: __dirname + "/release",
         filename: '[name].[hash:8].bundle.js',
@@ -27,7 +27,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.css$/,
-                loader: ExtractTextPlugin.extract("css-loader","postcss-loader")
+                loader: ExtractTextPlugin.extract("css-loader", "postcss-loader")
             },
             {
                 test: /(\.jsx|\.js)$/,
@@ -37,6 +37,7 @@ module.exports = {
         ]
     },
     plugins: [
+        new webpack.NoEmitOnErrorsPlugin(),
         new webpack.optimize.UglifyJsPlugin(),
         new ExtractTextPlugin("carlosyin.css"),
         new webpack.HotModuleReplacementPlugin(),

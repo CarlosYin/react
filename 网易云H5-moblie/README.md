@@ -7,7 +7,7 @@ __注：此项目纯属个人瞎搞，正常下单请选择饿了么官方客户
 
 ## 技术栈
 
-react + react-router + babel + bundle + webpack + postcss + ant-mobile
+react + react-sticky + react-router + babel + babel-polyfill + bundle + webpack + postcss + ant-mobile 
 
 
 ## 项目运行

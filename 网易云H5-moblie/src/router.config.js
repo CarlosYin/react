@@ -33,7 +33,7 @@ class RouteConfig extends Component {
         return (
             <HashRouter>
                 <Router basename="/">
-                    <div className="m-home" data-reactroot="" data-reactid="1" data-react-checksum="-405868286">
+                    <div id="j-app" className="u-height">
                         <Route exact path="/" component={HomePage} />
                         <Route path="/404" component={P404} />
                     </div>

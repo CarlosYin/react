@@ -15,7 +15,7 @@
     padding: 0 10px;
     width: 100%;
     height: 64px;
-    background-color: var(--base-bg);
+    background-color: var(--base);
     box-sizing: border-box;
 }
 .m-hometop .topfl {
@@ -92,5 +92,5 @@ user agent stylesheet
 
 .m-hometop .topplh {
     opacity: 0;
-    color: var(--base-bg);
+    color: var(--base);
 }

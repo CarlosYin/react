@@ -1,0 +1,77 @@
+.m-homeremd .remd_newsg {
+    position: relative;
+    min-height: 20px;
+}
+.m-sgitem, .m-sgitem .sgfl {
+    display: -webkit-box;
+    display: flex;
+}
+.m-sgitem {
+    padding-left: 10px;
+}
+.m-sgitem .sgfr {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    display: -webkit-box;
+    display: flex;
+    position: relative;
+}
+.f-bd {
+    position: relative;
+}
+.m-sgitem .sgchfl {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 6px 0;
+    width: 0;
+}
+.m-sgitem .sgtl {
+    font-size: 17px;
+}
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.m-sgitem .sginfo {
+    font-size: 12px;
+    color: #888;
+}
+
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.m-sgitem .sghot {
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 4px;
+}
+.u-hmsprt {
+    background: url(http://s3.music.126.net/m/s/img/index_icon_2x.png) no-repeat;
+    background-size: 166px 97px;
+}
+
+.m-sgitem .sgchfr {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.m-sgitem .sgchply {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-position: -24px 0;
+}
+
+.u-hmsprt {
+    background: url(http://s3.music.126.net/m/s/img/index_icon_2x.png) no-repeat;
+    background-size: 166px 97px;
+}

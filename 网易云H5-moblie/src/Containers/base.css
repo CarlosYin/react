@@ -33,13 +33,40 @@ blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, 
     min-height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6, small {
+    font-size: 100%;
+}
+
+abbr, body, fieldset, html, iframe, img {
+    border: 0;
+}
+
+a, a:visited {
+    color: #333;
+}
+
+a, del, ins, s, u {
+    text-decoration: none;
+}
+
+a, button {
+    cursor: pointer;
+}
+
 
 
 :root {
-    --base-bg: #d43c33;
+    --base: #d43c33;
     --grey: #1e1e1d;
     --yellow: #ffad15;
     --offwhite: #00ff00;
 }
 
+@import url(./Home/home.css);
 @import url(./404/404.css);
+@import url(../Components/Header/header.css);
+@import url(../Components/HomeHot/homehot.css);
+@import url(../Components/HotTopSongs/songs.css);
+@import url(../Components/HotNewSongs/songs.css);
+@import url(../Components/Footer/footer.css);
+/* @import url(./ant-mobile.css); */
