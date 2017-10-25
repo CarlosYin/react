@@ -17,8 +17,6 @@ react + react-sticky + react-router + babel + babel-polyfill + bundle + webpack 
 ```
 git clone https://github.com/CarlosYin/react.git
 
-cd react/react基础脚手架
-
 npm install
 
 npm start / npm run build
