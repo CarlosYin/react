@@ -8,7 +8,7 @@
     "clean": "rimraf ./release",
     "start": "webpack-dev-server --open --config webpack.dev.config.js",
     "build": "webpack --config webpack.pro.config.js"
-  },
+  }, 
   "author": "CarlosYin",
   "license": "ISC",
   "dependencies": {
