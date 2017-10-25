@@ -1,0 +1,96 @@
+.m-hometop {
+    height: 64px;
+}
+.m-hometop .topfix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    height: 64px;
+    background-color: var(--base-bg);
+    box-sizing: border-box;
+}
+.m-hometop .topfl {
+    position: relative;
+    width: 142px;
+    height: 25px;
+}
+.m-hometop .topsvg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 142px;
+    height: 25px;
+}
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow: hidden;
+}
+user agent stylesheet
+* > svg {
+    transform-origin: 50% 50% 0px;
+}
+user agent stylesheet
+* {
+    transform-origin: 0px 0px 0px;
+}
+user agent stylesheet
+* {
+    transform-origin: 0px 0px 0px;
+}
+
+.m-hometop .topbton {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 15px;
+}
+.f-bd {
+    position: relative;
+}
+
+.m-hometop .topbton:after {
+    border-color: #fff;
+    border-radius: 37.5%/100%;
+}
+.f-bd-full:after {
+    border-width: 1px;
+}
+.f-bd:after {
+    position: absolute;
+    z-index: 2;
+    content: "";
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    border: 0 solid rgba(0,0,0,.1);
+    border-width: 1px;
+}
+
+
+.f-bd:after {
+    width: 200%;
+    height: 200%;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.m-hometop .topplh {
+    opacity: 0;
+    color: var(--base-bg);
+}
