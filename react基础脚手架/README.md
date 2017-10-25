@@ -17,7 +17,7 @@ react + react-router + babel + bundle + webpack + postcss + ant-mobile
 ```
 git clone https://github.com/CarlosYin/react.git
 
-cd react
+cd react/react基础脚手架
 
 npm install
 

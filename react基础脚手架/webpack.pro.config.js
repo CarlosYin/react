@@ -14,7 +14,7 @@ module.exports = {
   output: {
     path: __dirname + "/release",
     filename: '[name].[hash:8].bundle.js',
-    chunkFilename: '[name]-[id].[hash:8].bundle.js',
+    chunkFilename: 'js/[name]-[id].[hash:8].bundle.js',
   },
   module: {
     loaders: [
