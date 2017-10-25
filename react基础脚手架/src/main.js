@@ -13,6 +13,6 @@ import RouteConfig from './router.config';//使用路由配置
 
 
 import 'antd-mobile/dist/antd-mobile.css';
-import './Container/base.css';
+import './Containers/base.css';
 
 render(<RouteConfig />, document.querySelector('#j-app'));
